@@ -1,0 +1,8 @@
+channels:
+  - ./channel
+  - nodefaults
+dependencies:
+  - _openmp_mutex=4.5=20_gnu
+  - libgcc=16.2.0=ha9f2e26_7
+  - libgomp=16.2.0=he0feb66_7
+  - ripgrep=15.2.0=hf19af3b_1
