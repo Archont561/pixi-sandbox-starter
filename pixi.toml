@@ -1,0 +1,18 @@
+# Pixi project for the pixi-sandbox starter. Replace this with your own project:
+# the only parts Pixi Sandbox needs are a workspace with at least one real dependency
+# and a platform that matches the `[[bundle]]` in pixi-sandbox.toml.
+[workspace]
+name = "pixi-sandbox-starter"
+channels = ["https://prefix.dev/conda-forge"]
+platforms = ["linux-64"]
+
+[dependencies]
+# One small, fast-to-fetch package keeps the environment real. A dependency-free
+# workspace produces a lockfile with no per-platform data, which packs into a
+# transport that cannot be restored.
+ripgrep = "*"
+
+[tasks]
+# The documented development command. `pixi run dev` is what the README tells a new
+# user to run, and what CI runs to prove a fresh clone works.
+dev = "rg --version"

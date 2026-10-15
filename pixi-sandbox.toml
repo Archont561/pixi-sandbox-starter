@@ -1,0 +1,8 @@
+schema = 1
+branch_prefix = "sandbox"
+cargo_vendor = false
+
+[[bundle]]
+name = "developer"
+environments = ["default"]
+platforms = ["linux-64"]

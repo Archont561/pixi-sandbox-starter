@@ -1,0 +1,6 @@
+{
+  "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+  "name": "pixi-sandbox-starter",
+  "image": "ghcr.io/prefix-dev/pixi:0.81.0",
+  "postCreateCommand": "bash .devcontainer/setup.sh"
+}

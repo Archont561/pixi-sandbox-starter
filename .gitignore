@@ -1,0 +1,10 @@
+# Pixi's installed environments: restored from pixi.lock, never committed.
+.pixi/
+
+# Pixi Sandbox runtime state: transports, vendored crates and downloaded tools.
+.pixi-sandbox/
+
+# A downloaded standalone binary and its checksum manifest are build inputs, not sources.
+/pixi-sandbox
+/pixi-sandbox.exe
+/SHA256SUMS
